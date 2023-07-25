@@ -24,7 +24,9 @@ class UnitTestTests: XCTestCase {
         super.tearDown()
     }
 }
+```
 
+```swift
 // new-file.swift
 import XCTest
 
