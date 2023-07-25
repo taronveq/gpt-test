@@ -3,6 +3,8 @@ class GPTTest {
     print("gpt tested")
   }
 
-  private func newFun() {
+  private func newFun() -> Int {
+    0
   }
+
 }
