@@ -1,5 +1,3 @@
-Here are the unit tests:
-
 ```swift
 // UnitTest.swift
 import XCTest
