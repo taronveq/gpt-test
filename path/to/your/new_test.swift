@@ -1,20 +1,13 @@
-```swift
 import XCTest
 
-class GPTTestTest: XCTestCase {
-
-    func testFun() {
-        let gptTest = GPTTest()
-        gptTest.fun()
-        XCTAssertEqual("gpt tested", parsedOutput)
+class UnitTestsTest: XCTestCase {
+    
+    func testTest() {
+        let unitTests = UnitTests()
+        unitTests.test()
+        XCTAssertEqual("new tested", parsedOutput)
     }
-
-    func testNewFun() {
-        let gptTest = GPTTest()
-        let result = gptTest.newFun()
-        XCTAssertEqual(0, result)
-    }
-
+    
     var parsedOutput: String = ""
     override class func setUp() {
         super.setUp()
@@ -23,10 +16,9 @@ class GPTTestTest: XCTestCase {
             parsedOutput = "\(items)"
         }
     }
-
+    
     override class func tearDown() {
         Swift.print = originalPrint
         super.tearDown()
     }
 }
-```
