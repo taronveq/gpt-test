@@ -1,5 +1,3 @@
-Here is a generated unit test for the code provided:
-
 ```swift
 import XCTest
 
