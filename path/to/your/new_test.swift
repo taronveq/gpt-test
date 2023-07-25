@@ -1,12 +1,18 @@
 ```swift
 import XCTest
 
-class UnitTestsTests: XCTestCase {
+class GPTTestTests: XCTestCase {
     
-    func test() {
-        let unitTests = UnitTests()
-        unitTests.test()
-        XCTAssertEqual("new tested", parsedOutput)
+    func testFun() {
+        let gptTest = GPTTest()
+        gptTest.fun()
+        XCTAssertEqual("gpt tested", parsedOutput)
+    }
+    
+    func testNewFun() {
+        let gptTest = GPTTest()
+        let result = gptTest.newFun()
+        XCTAssertEqual(0, result)
     }
     
     var parsedOutput: String = ""
@@ -24,5 +30,3 @@ class UnitTestsTests: XCTestCase {
     }
 }
 ```
-
-Note that this unit test assumes you are using XCTest framework for testing.
