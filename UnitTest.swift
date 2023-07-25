@@ -1,5 +1,5 @@
 class UnitTests {
   public func test() {
-    print("tested")
+    print("new tested")
   }
 }
