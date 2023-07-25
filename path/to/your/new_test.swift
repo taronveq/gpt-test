@@ -1,3 +1,5 @@
+import XCTest
+
 class GPTTestTest: XCTestCase {
 
     func testFun() {
